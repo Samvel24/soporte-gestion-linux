@@ -41,3 +41,4 @@ Esta guia muestra algunos comandos de Linux que pueden ser de utilidad en divers
     - La velocidad de rotación de los ventiladores.
     - La temperatura de una computadora remota.
     - La carga de la CPU (mide cuántos programas están usando o esperando un núcleo del procesador simultáneamente).
+Una vez instalada la aplicación psensor esta se puede encontrar por medio de la barra de búsqueda y después ejecutarla dando clic sobre ella.
