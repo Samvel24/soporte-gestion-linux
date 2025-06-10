@@ -23,3 +23,21 @@ Esta guia muestra algunos comandos de Linux que pueden ser de utilidad en divers
 * **free -h**: Proporciona información sobre el uso de la memoria RAM en formato legible.
 
 * **lsblk**: Es una utilidad que permite listar dispositivos de bloque en un sistema Linux. Los dispositivos de bloque son dispositivos de almacenamiento que almacenan datos en forma de bloques, generalmente discos duros (HDD) o unidades de estado sólido (SSD).
+
+* **neofetch**: Este comando ejecuta una aplicación de terminal de Linux que permite ver la información básica de software y hardware instalada en una computadora. Para ejecutarla solo es necesario usar *neofetch*, para instalarla podemos usar *sudo apt install neofetch*.
+
+* **fastfetch**: Fastfetch es una herramienta similar a Neofetch, esta última es más actual y tiene la ventaja de que presenta más detalles técnicos sobre el software y hardware de la computadora.
+
+* **lm-sensors**: lm-sensors es un paquete de monitorización de dispositivos de salud para Linux, permite acceder a la información de los sensores de la temperatura, el voltaje y la velocidad de los ventiladores de una pc. Para poder acceder a toda esta información es necesario ejecutar los siguientes comandos.
+    - *sudo apt install lm-sensors*, este comando permite instalar el paquete en si mismmo.
+    - *sudo sensors-detect*, nos ayuda a detectar los sensores de temperatura que están instalados en la computadora.
+    - */etc/init.d/kmod start*, inicia los módulos del kernel para que funcionen los sensores detectados.
+    - *sensors*, muestra en la terminal los valores de temperatura detectados.
+
+* **sudo apt install psensor**, instala una **aplicación gráfica** de monitorización de hardware para Linux, esta aplicación proporciona información sobre:
+    - La temperatura de los sensores de la placa base y de la CPU (utilizando el paquete lm-sensors).
+    - La temperatura de las GPU NVidia y ATI.
+    - La temperatura de las unidades de disco duro.
+    - La velocidad de rotación de los ventiladores.
+    - La temperatura de una computadora remota.
+    - La carga de la CPU (mide cuántos programas están usando o esperando un núcleo del procesador simultáneamente).
